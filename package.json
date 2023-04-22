@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Library for Kramar IT studio",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -c -w",
