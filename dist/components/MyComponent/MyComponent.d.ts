@@ -1,5 +1,5 @@
 import { FC } from 'react';
 export interface MyComponentProps {
-    text: string;
+  text: string;
 }
 export declare const MyComponent: FC<MyComponentProps>;

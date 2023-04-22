@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { MyComponent } from './MyComponent';
@@ -13,5 +13,5 @@ export default meta;
 type Story = StoryObj<typeof MyComponent>;
 
 export const Primary: Story = {
-  render: () => <MyComponent text='Test text' />,
+  render: () => <MyComponent text="Test text" />,
 };
