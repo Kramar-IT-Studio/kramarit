@@ -1,6 +1,5 @@
 import { FC } from 'react';
-interface MyComponentProps {
+export interface MyComponentProps {
     text: string;
 }
-declare const MyComponent: FC<MyComponentProps>;
-export default MyComponent;
+export declare const MyComponent: FC<MyComponentProps>;

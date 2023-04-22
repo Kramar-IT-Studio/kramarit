@@ -1,5 +1,4 @@
 import React from 'react';
-const MyComponent = ({ text }) => {
+export const MyComponent = ({ text }) => {
     return React.createElement("div", null, text);
 };
-export default MyComponent;
