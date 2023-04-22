@@ -4,6 +4,11 @@
   "description": "Library for Kramar IT studio",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kramar-IT-Studio/kramarit.git"
+  },
+  "homepage": "https://github.com/Kramar-IT-Studio/kramarit",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -c -w",
