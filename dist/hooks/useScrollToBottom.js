@@ -4,7 +4,7 @@ export const useScrollToBottom = (callback) => {
         function handleScroll() {
             const { scrollTop, clientHeight, scrollHeight } = document.documentElement;
             // Проверяем, достигнута ли нижняя граница экрана
-            if (scrollTop + clientHeight >= scrollHeight) {
+            if (Math.ceil(scrollTop + clientHeight) >= Math.ceil(scrollHeight)) {
                 callback();
             }
         }
