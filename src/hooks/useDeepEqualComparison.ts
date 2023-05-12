@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { deepEqual } from '../utils';
 
-export function useDeepEqualComparison<TData = unknown>(
+export const useDeepEqualComparison = <TData = unknown>(
   value1: TData,
   value2: TData
-): boolean {
+): boolean => {
   const [isEqual, setIsEqual] = useState(true);
 
   useEffect(() => {
@@ -12,4 +12,4 @@ export function useDeepEqualComparison<TData = unknown>(
   }, [value1, value2]);
 
   return isEqual;
-}
+};

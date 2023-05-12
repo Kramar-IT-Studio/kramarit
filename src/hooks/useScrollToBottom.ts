@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export function useScrollToBottom(callback: () => void): void {
+export const useScrollToBottom = (callback: () => void): void => {
   useEffect(() => {
     function handleScroll(): void {
       const { scrollTop, clientHeight, scrollHeight } =
@@ -20,4 +20,4 @@ export function useScrollToBottom(callback: () => void): void {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [callback]);
-}
+};

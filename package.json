@@ -1,6 +1,6 @@
 {
   "name": "kramarit",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Library for Kramar IT studio",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
