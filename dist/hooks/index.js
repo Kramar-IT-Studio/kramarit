@@ -20,3 +20,5 @@ export { default as usePropsChange } from './usePropsChange';
 export { default as useSessionStorage } from './useSessionStorage';
 export { useWebWorker } from './useWebWorker';
 export { default as useWindowSize } from './useWindowSize';
+export { useDeepEqualComparison } from './useDeepEqualComparison';
+export { useScrollToBottom } from './useScrollToBottom';
