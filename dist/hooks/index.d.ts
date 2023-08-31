@@ -22,3 +22,4 @@ export { useWebWorker } from './useWebWorker';
 export { default as useWindowSize } from './useWindowSize';
 export { useDeepEqualComparison } from './useDeepEqualComparison';
 export { useScrollToBottom } from './useScrollToBottom';
+export { useDeviceType } from './useDeviceType';
